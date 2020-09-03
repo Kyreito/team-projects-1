@@ -62,9 +62,12 @@ img {
 }
 
 /*hero section*/
-.products ul {
+/* .products ul {
   padding: 0;
   margin: 50;
+} */
+.products {
+  padding-bottom: 120px;
 }
 
 .products-quality {
@@ -189,7 +192,6 @@ img {
   height: 10px;
   border-radius: 50%;
   background: #fff;
-  margin-bottom: 32px;
   margin-left: 10px;
   margin-bottom: 0;
 }
@@ -201,11 +203,10 @@ img {
 }
 
 /* CONTACTS */
-.contacts-section ul {
+/* .contacts-section ul {
   padding: 0;
   margin: 0;
-}
-
+} */
 .list {
   padding: 0;
   margin: 0;
@@ -393,6 +394,8 @@ img {
   .contacts-list {
     display: flex;
     justify-content: center;
+    padding-right: 0;
+    padding-left: 0;
   }
   .contacts-list-item {
     /* margin-top: -170px; */
