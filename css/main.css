@@ -210,7 +210,7 @@ img {
   }
   .contacts-btn-2 {
     display: flex;
-    padding: 10px 32px;
+    padding: 10px 35px;
     background: #ffffff;
     border-radius: 22px;
     border: none;
@@ -238,6 +238,10 @@ img {
   }
   .contacts-btn-list-item:not(:last-child) {
     margin-bottom: 10px;
+  }
+  .icon-arrow {
+    margin-left: 15px;
+    fill: currentColor;
   }
 }
 
@@ -375,7 +379,7 @@ img {
   }
   .contacts-btn-2 {
     display: inline-block;
-    padding: 14px 32px;
+    padding: 14px 37px;
     background: #ffffff;
     border-radius: 22px;
     border: none;
@@ -401,6 +405,10 @@ img {
   }
   .contacts-btn-list-item:not(:last-child) {
     margin-right: 15px;
+  }
+  .icon-arrow {
+    margin-left: 15px;
+    fill: currentColor;
   }
 }
 
@@ -472,6 +480,8 @@ img {
     margin-top: 86px;
   }
   .contacts-btn-1 {
+    display: flex;
+    align-items: center;
     padding: 12px 35px;
     border-radius: 22px;
     cursor: pointer;
@@ -479,9 +489,15 @@ img {
     line-height: 21px;
   }
   .contacts-btn-2 {
-    padding: 12px 35px;
+    display: flex;
+    align-items: center;
+    padding: 12px 37px;
     font-size: 16px;
     line-height: 21px;
+  }
+  .icon-arrow {
+    margin-left: 15px;
+    fill: currentColor;
   }
 }
 /*# sourceMappingURL=main.css.map */
