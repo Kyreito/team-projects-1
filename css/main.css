@@ -420,6 +420,7 @@ img {
   .contacts-list {
     display: block;
     justify-content: center;
+    padding-left: 0;
   }
   .contacts-list-item {
     /* margin-top: -170px; */
