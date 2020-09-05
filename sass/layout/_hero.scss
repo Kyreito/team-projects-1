@@ -12,6 +12,7 @@
   .hero-section .container {
     padding-top: 200px;
     padding-bottom: 0;
+    overflow: hidden;
   }
 
   .first-block {
@@ -222,7 +223,6 @@
     width: 346px;
     height: 344px;
     border-radius: 50%;
-    overflow: hidden;
 
     background: #ffa5ba;
     z-index: -3;
